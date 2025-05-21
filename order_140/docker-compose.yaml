@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  order_109:
+    container_name: order_109
+    image: order_109:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .env
+    restart: on-failure
