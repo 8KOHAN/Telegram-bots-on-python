@@ -1,4 +1,4 @@
-# 🎬 Telegram Video & Audio Downloader Bot
+# Telegram Video & Audio Downloader Bot
 
 A powerful and easy-to-use Telegram bot that allows users to download **videos and audio from TikTok and YouTube** directly via chat.
 
@@ -6,19 +6,19 @@ A powerful and easy-to-use Telegram bot that allows users to download **videos a
 
 ---
 
-## ⚡ Features
+## Features
 
-- ✅ Supports TikTok, YouTube, and YouTube Shorts URLs
-- 🎵 Choose between **video or audio** download formats
-- 📂 Auto-creates a `downloads/` folder and manages file cleanup
-- 💾 Stores URL history using a JSON file
+- Supports TikTok, YouTube, and YouTube Shorts URLs
+- Choose between **video or audio** download formats
+- Auto-creates a `downloads/` folder and manages file cleanup
+- Stores URL history using a JSON file
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
-📁 Project Structure
+Project Structure
 
 telegram-downloader-bot/
 ├── bot.py                    # Entry point
@@ -33,7 +33,7 @@ telegram-downloader-bot/
 ├── url_storage.json          # Stored URLs
 └── .env                      # Your bot token (not committed)
 ```
-📌 Notes
+Notes
 
 - All files are automatically deleted after sending to the user.
 - Designed for personal or small-scale use.
