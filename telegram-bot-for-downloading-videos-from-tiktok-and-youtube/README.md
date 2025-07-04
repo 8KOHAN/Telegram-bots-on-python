@@ -35,8 +35,6 @@ telegram-downloader-bot/
 ```
 📌 Notes
 
-    All files are automatically deleted after sending to the user.
-
-    Designed for personal or small-scale use.
-
-    Respect the terms of service of TikTok and YouTube when using this bot.
+- All files are automatically deleted after sending to the user.
+- Designed for personal or small-scale use.
+- espect the terms of service of TikTok and YouTube when using this bot.
