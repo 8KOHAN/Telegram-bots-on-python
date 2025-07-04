@@ -11,32 +11,13 @@ A powerful and easy-to-use Telegram bot that allows users to download **videos a
 - ✅ Supports TikTok, YouTube, and YouTube Shorts URLs
 - 🎵 Choose between **video or audio** download formats
 - 📂 Auto-creates a `downloads/` folder and manages file cleanup
-- 💾 Stores URL history using a simple JSON file
+- 💾 Stores URL history using a JSON file
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
-
 ```bash
-git clone https://github.com/your-username/telegram-downloader-bot.git
-cd telegram-downloader-bot
-
-2. Install dependencies
-
-pip install -r requirements.txt
-
-3. Add your bot token
-
-Create a .env file in the root directory and paste:
-
-BOT_TOKEN=your_telegram_bot_token_here
-
-4. Run the bot
-
-python bot.py
-
 📁 Project Structure
 
 telegram-downloader-bot/
