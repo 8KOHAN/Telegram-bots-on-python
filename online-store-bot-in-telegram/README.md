@@ -40,8 +40,11 @@ A sleek and practical **Telegram store bot** for browsing and purchasing **phone
 online-store-bot-in-telegram/
 ├── bot.py # Entry point
 ├── data/
+
 │ └── products.py # Manages product data (JSON storage)
+
 ├── handlers/
+
 │ ├── admin.py # Admin interface (add/delete products)
 │ ├── callback.py # User navigation and selection
 │ ├── commands.py # /start and /help handlers
