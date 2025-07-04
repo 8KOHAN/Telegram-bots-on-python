@@ -32,7 +32,7 @@ telegram-downloader-bot/
 ├── downloads/                # Downloaded files (auto-created)
 ├── url_storage.json          # Stored URLs
 └── .env                      # Your bot token (not committed)
-
+```
 📌 Notes
 
     All files are automatically deleted after sending to the user.
