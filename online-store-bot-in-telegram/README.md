@@ -8,11 +8,11 @@ A sleek and practical **Telegram store bot** for browsing and purchasing **phone
 
 ## 👤 User Features
 
-- 📱 Browse a catalog of **phones and PCs**
-- 📷 View detailed product cards with images and descriptions
-- ↩️ Universal **Back button** — re-sends the previous message and deletes the old one
-- 🛒 Choose what to buy via inline buttons
-- ❓ Use `/start` and `/help` for simple guidance
+- Browse a catalog of **phones and PCs**
+- View detailed product cards with images and descriptions
+- Universal **Back button** — re-sends the previous message and deletes the old one
+- Choose what to buy via inline buttons
+- Use `/start` and `/help` for simple guidance
 
 ---
 
@@ -20,10 +20,10 @@ A sleek and practical **Telegram store bot** for browsing and purchasing **phone
 
 > Only accessible to users **hardcoded in the bot**
 
-- ➕ Add new products (name, price, image, description)
-- 🗑️ Remove products easily
-- ↩️ Full **Back button** support in admin interface
-- 💾 **All products are saved in a `products.json` file** — no database required
+- Add new products (name, price, image, description)
+- Remove products easily
+- Full **Back button** support in admin interface
+- **All products are saved in a `products.json` file** — no database required
 
 ---
 
