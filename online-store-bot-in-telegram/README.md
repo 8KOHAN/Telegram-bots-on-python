@@ -1,4 +1,4 @@
-# 🛍️ Telegram Online Store Bot
+# Telegram Online Store Bot
 
 A sleek and practical **Telegram store bot** for browsing and purchasing **phones and PCs**. Offers an intuitive shopping flow for users, and a secure admin panel for managing the product catalog — all stored in a local JSON file.
 
@@ -6,7 +6,7 @@ A sleek and practical **Telegram store bot** for browsing and purchasing **phone
 
 ---
 
-## 👤 User Features
+## User Features
 
 - Browse a catalog of **phones and PCs**
 - View detailed product cards with images and descriptions
@@ -16,7 +16,7 @@ A sleek and practical **Telegram store bot** for browsing and purchasing **phone
 
 ---
 
-## 🔐 Admin Panel
+## Admin Panel
 
 > Only accessible to users **hardcoded in the bot**
 
@@ -27,7 +27,7 @@ A sleek and practical **Telegram store bot** for browsing and purchasing **phone
 
 ---
 
-## 🗃️ Persistent Storage
+## Persistent Storage
 
 - All products are saved and loaded from `data/products.json`
 - Automatically updated when products are added or removed
@@ -35,7 +35,7 @@ A sleek and practical **Telegram store bot** for browsing and purchasing **phone
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```bash
 online-store-bot-in-telegram/
