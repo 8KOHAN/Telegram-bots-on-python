@@ -39,11 +39,11 @@ A sleek and practical **Telegram store bot** for browsing and purchasing **phone
 
 ```bash
 online-store-bot-in-telegram/
-├── bot.py # Entry point
+├── bot.py
 ├── data/
-│ └── products.py # Manages product data (JSON storage)
+│ └── products.py
 ├── handlers/
-│ ├── admin.py # Admin interface (add/delete products)
-│ ├── callback.py # User navigation and selection
-│ ├── commands.py # /start and /help handlers
-│ └── fsm_states.py # FSM states for admin flows
+│ ├── admin.py
+│ ├── callback.py
+│ ├── commands.py
+│ └── fsm_states.py
