@@ -38,12 +38,16 @@ A sleek and practical **Telegram store bot** for browsing and purchasing **phone
 ## Project Structure
 
 ```bash
-online-store-bot-in-telegram/
 ├── bot.py
 ├── data/
-│ └── products.py
+│   └── products.py
 ├── handlers/
-│ ├── admin.py
-│ ├── callback.py
-│ ├── commands.py
-│ └── fsm_states.py
+│   ├── admin.py
+│   ├── callback.py
+│   ├── commands.py
+│   ├── fsm_states.py
+│   └── keyboards/
+│       ├── admin_kb.py  
+│       ├── reply_kp.py
+│       ├── inline_kb.py
+```
