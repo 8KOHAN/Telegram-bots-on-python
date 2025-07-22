@@ -20,7 +20,7 @@
 
 ---
 
-## 🛠Technologies
+## Technologies
 
 - `Python 3.10+`
 - `Aiogram` 
