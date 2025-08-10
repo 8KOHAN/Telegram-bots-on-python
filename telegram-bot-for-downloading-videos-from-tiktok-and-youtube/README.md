@@ -21,17 +21,17 @@ A powerful and easy-to-use Telegram bot that allows users to download **videos a
 Project Structure
 
 telegram-downloader-bot/
-├── bot.py                    # Entry point
-├── url_storage.py            # Handles URL storage
+├── bot.py                  
+├── url_storage.py          
 ├── handlers/
-│   ├── callback.py           # Handles inline button callbacks
-│   ├── commands.py           # /start and URL message handlers
-│   ├── function.py           # Video/audio download logic
+│   ├── callback.py         
+│   ├── commands.py         
+│   ├── function.py         
 │   └── keyboards/
-│       └── inline_kp.py      # Inline keyboard buttons
-├── downloads/                # Downloaded files (auto-created)
-├── url_storage.json          # Stored URLs
-└── .env                      # Your bot token (not committed)
+│       └── inline_kp.py    
+├── downloads/              
+├── url_storage.json        
+└── .env                    
 ```
 Notes
 
