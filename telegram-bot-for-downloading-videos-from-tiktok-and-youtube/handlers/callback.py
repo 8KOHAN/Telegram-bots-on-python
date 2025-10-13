@@ -12,12 +12,12 @@ async def format_selection(callback: CallbackQuery, bot: Bot):
     action, url_id = callback.data.split("|")
     url = storage.url_storage.get(url_id)
     if not url:
-        await callback.answer("Ошибка: URL не найден!")
+        await callback.answer("Error: URL not found!")
         return
-    await callback.answer("потверждено!")
+    await callback.answer("confirmed!")
     if action == "video":
-        await callback.message.answer("начинаю загрузку видео")
+        await callback.message.answer("I'm starting to upload the video")
         await download_and_media(bot, callback.message.chat.id, url, media_type='video')
     elif action == "audio":
-        await callback.message.answer("начинаю загрузку аудио")
+        await callback.message.answer("starting to download audio")
         await download_and_media(bot, callback.message.chat.id, url, media_type='audio')
