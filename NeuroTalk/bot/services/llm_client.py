@@ -33,7 +33,7 @@ async def ask_llm(messages: list[dict]) -> str:
         print(f"Ollama subprocess error: {e}")
         print(f"stderr: {e.stderr}")
         print(f"stdout: {e.stdout}")
-        return "Вибачте, сталася помилка під час відповіді від AI."
+        return "Sorry, there was an error while responding from the AI"
     except Exception as e:
         print(f"Unexpected error: {e}")
-        return "Вибачте, сталася помилка під час відповіді від AI."
+        return "Sorry, there was an error while responding from the AI"
