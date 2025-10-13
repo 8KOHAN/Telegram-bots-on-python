@@ -28,6 +28,6 @@ def product_buttons(category, products: dict):
 
     keyboard_rows = [[button] for button in product_buttons_list]
 
-    keyboard_rows.append([InlineKeyboardButton(text="🔙 Назад", callback_data="back:categories")])
+    keyboard_rows.append([InlineKeyboardButton(text="🔙 Back", callback_data="back:categories")])
 
     return InlineKeyboardMarkup(inline_keyboard=keyboard_rows)
