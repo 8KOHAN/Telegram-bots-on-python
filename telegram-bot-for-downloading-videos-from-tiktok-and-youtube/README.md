@@ -15,11 +15,9 @@ A powerful and easy-to-use Telegram bot that allows users to download **videos a
 
 ---
 
-## Getting Started
+## Project Structure
 
 ```bash
-Project Structure
-
 telegram-downloader-bot/
 ├── bot.py                  
 ├── url_storage.py          
@@ -33,8 +31,3 @@ telegram-downloader-bot/
 ├── url_storage.json        
 └── .env                    
 ```
-Notes
-
-- All files are automatically deleted after sending to the user.
-- Designed for personal or small-scale use.
-- espect the terms of service of TikTok and YouTube when using this bot.
