@@ -25,10 +25,10 @@ async def download_and_media(bot, chat_id, url, media_type):
 
         media_file = FSInputFile(filename)
         if media_file == "video":
-            await bot.send_video(chat_id, media_file, caption = f"вот твое видео! время загрузки{elapsed_time} секунд.")
+            await bot.send_video(chat_id, media_file, caption = f"Here's your video! Loading time {elapsed_time} seconds")
         else:
-            await bot.send_video(chat_id, media_file, caption = f"вот твое аудио! время загрузки{elapsed_time} секунд.")
+            await bot.send_video(chat_id, media_file, caption = f"Here's your audio! Loading time {elapsed_time} seconds.")
         os.remove(filename)
     
     except Exception as ex:
-        await bot.send_message(chat_id, f"ошибка: {ex}")
+        await bot.send_message(chat_id, f"Error: {ex}")
