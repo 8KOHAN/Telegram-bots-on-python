@@ -15,7 +15,7 @@ A powerful and easy-to-use Telegram bot that allows users to download **videos a
 
 ---
 
-## Structure
+## Project Structure
 
 ```bash
 telegram-downloader-bot/
