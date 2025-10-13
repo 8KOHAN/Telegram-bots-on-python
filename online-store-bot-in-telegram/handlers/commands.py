@@ -25,4 +25,4 @@ async def admin_access(message: Message):
     if message.from_user.id in ADMIN_IDS:
         await message.answer("Welcome to the admin panel", reply_markup=admin_main_kb())
     else:
-        await message.answer("⛔ You don't have access to the admin panel..")
+        await message.answer("⛔ You don't have access to the admin panel")
