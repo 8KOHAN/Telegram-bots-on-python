@@ -9,7 +9,7 @@ load_dotenv()
 async def main():
     token = os.getenv("BOT_TOKEN")
     if not token:
-        raise ValueError("BOT_TOKEN не заданий у .env")
+        raise ValueError("BOT_TOKEN has no assignments in .env")
 
     bot = Bot(token=token)
     dp = Dispatcher()
