@@ -35,7 +35,7 @@ A sleek and practical **Telegram store bot** for browsing and purchasing **phone
 
 ---
 
-## Project Structure
+## Structure
 
 ```bash
 ├── bot.py
