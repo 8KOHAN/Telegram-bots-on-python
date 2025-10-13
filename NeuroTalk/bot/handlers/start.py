@@ -5,11 +5,11 @@ from keyboards.reply import main_reply_kb
 router = Router()
 
 HELP_TEXT = (
-    "👋 *Вітаю!*\n\n"
-    "Я — віртуальний асистент майстра лазерної епіляції.\n\n"
-    "/start або /help — інструкція щодо використання бота\n"
-    "/booking — записатися на прийом через Google Календар\n\n"
-    "Пишіть будь-яке запитання — і я з радістю відповім 😊"
+    "👋 *Congratulations!*\n\n"
+    "I am a virtual assistant to a laser hair removal master\n\n"
+    "/start or /help — instructions on how to use the bot\n"
+    "/booking — make an appointment via Google Calendar\n\n"
+    "Write any question and I will be happy to answer it 😊"
 )
 
 @router.message(Command("start"))
