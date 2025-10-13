@@ -20,7 +20,7 @@
 
 ---
 
-## Project Structure
+## Structure
 
 ```bash
 bot/
